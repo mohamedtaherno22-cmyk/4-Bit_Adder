@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/avrtpntutri2yhn13zdwmt73)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> An 8-bit adder using a custom PCB, transistors, and other simple electronics.
+> A 4-bit adder built entirely from discrete transistors and resistors. The project explores how digital logic works at the hardware level; it combines 30 NOR Gates and 1 AND gate to form 3 full adders and 1 half adder. Everything is assembled onto a custom 8cm x 7cm PCB.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
