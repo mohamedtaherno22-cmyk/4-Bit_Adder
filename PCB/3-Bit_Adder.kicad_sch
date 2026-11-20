@@ -1,0 +1,1320 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0e256ae9-e61f-4adc-8ffd-4a6f61933806")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 105.41 38.1)
+		(end 209.55 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "43af4d51-7db8-4580-976b-1064a8b23a32")
+	)
+	(junction
+		(at 124.46 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133488b0-0a30-4d91-8a49-3aa0a383e173")
+	)
+	(junction
+		(at 109.855 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4df9d825-7704-46a8-b4e9-e1dec1593782")
+	)
+	(junction
+		(at 158.115 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cbcd9fc-43e7-40d0-8184-6cebb0ce470f")
+	)
+	(junction
+		(at 124.46 56.515)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aebd650f-59d0-4770-b58b-98bb13b4fc2f")
+	)
+	(junction
+		(at 158.115 56.515)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b252b6b8-adf9-4bd2-8a48-663309c75a55")
+	)
+	(junction
+		(at 175.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3c4bb68-ed0f-44b4-883d-8982997ef12e")
+	)
+	(junction
+		(at 175.26 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c82f84ec-fc28-4302-97a5-5994be2fa20f")
+	)
+	(junction
+		(at 109.855 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd2e01f0-0def-43cb-b6b1-994ada616f83")
+	)
+	(wire
+		(pts
+			(xy 191.135 52.705) (xy 191.135 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0087a867-3464-4ee5-9955-3cf19aebbd86")
+	)
+	(wire
+		(pts
+			(xy 173.355 49.53) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f19d0f-a2ea-4b40-87c2-7118f0a05301")
+	)
+	(wire
+		(pts
+			(xy 105.41 62.23) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1683806b-133c-45c5-9088-8646919ef694")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ee7d38-a48e-41fe-9f44-5b31c0a07aea")
+	)
+	(wire
+		(pts
+			(xy 139.7 56.515) (xy 140.335 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c25a798-bcc2-479c-8c22-2f2897199dcf")
+	)
+	(wire
+		(pts
+			(xy 124.46 49.53) (xy 124.46 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220349fc-053c-4dd8-a497-25300ec2b38d")
+	)
+	(wire
+		(pts
+			(xy 140.335 52.705) (xy 143.51 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273daadd-f584-41aa-b786-e1a959869dc3")
+	)
+	(wire
+		(pts
+			(xy 140.335 42.545) (xy 140.335 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd5e0e4-85ec-45e2-9439-f5b2360831d3")
+	)
+	(wire
+		(pts
+			(xy 109.855 52.705) (xy 111.125 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f152e34-0d5e-49c6-b72b-4e85d83674a6")
+	)
+	(wire
+		(pts
+			(xy 175.26 45.72) (xy 177.165 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36bb3338-431b-4614-affa-dedc775f8139")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.945) (xy 177.165 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d8c1b0-4eec-44ea-862b-59ea600af88b")
+	)
+	(wire
+		(pts
+			(xy 109.855 42.545) (xy 109.855 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ede8299-af3f-4286-b0dc-944ed39183d3")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 109.855 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3feb3d5d-eb6d-4752-9c8c-c71c20e46931")
+	)
+	(wire
+		(pts
+			(xy 147.32 56.515) (xy 147.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5330a3fd-4b47-4091-b2e0-2a049e3e4866")
+	)
+	(wire
+		(pts
+			(xy 105.41 52.705) (xy 109.855 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b69801-1da5-4b6b-a046-ab14f0ff1fc6")
+	)
+	(wire
+		(pts
+			(xy 189.865 42.545) (xy 191.135 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e91d8b7-489d-488e-85ed-b0498fac35fa")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 175.26 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f5720e-adff-468b-9a40-6596de9c1960")
+	)
+	(wire
+		(pts
+			(xy 124.46 56.515) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6253d93a-2fec-46f9-8a6e-eb7e903eda11")
+	)
+	(wire
+		(pts
+			(xy 139.7 42.545) (xy 140.335 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6376a6ac-4e7a-493c-8811-572bf3b82ccd")
+	)
+	(wire
+		(pts
+			(xy 158.115 42.545) (xy 177.165 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cf547b-b9f8-4cba-ab7b-ea3d925216dc")
+	)
+	(wire
+		(pts
+			(xy 109.855 42.545) (xy 127 42.545)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806b2de0-cbc7-4de1-a28f-9f3f04600401")
+	)
+	(wire
+		(pts
+			(xy 109.855 49.53) (xy 111.125 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84869acc-dd4a-41aa-8b12-c05e258a27b1")
+	)
+	(wire
+		(pts
+			(xy 191.135 52.705) (xy 193.675 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c4b565-c2a0-4af4-9f13-b978459f9b1b")
+	)
+	(wire
+		(pts
+			(xy 191.135 42.545) (xy 191.135 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e284509-a001-4b63-af7c-6410e16ff909")
+	)
+	(wire
+		(pts
+			(xy 189.865 56.515) (xy 191.135 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94524eff-6a75-4884-8da7-ca3cfb1598fa")
+	)
+	(wire
+		(pts
+			(xy 124.46 71.12) (xy 177.165 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa07e12-c357-4225-9566-469676da5a73")
+	)
+	(wire
+		(pts
+			(xy 158.115 42.545) (xy 158.115 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7323497-53ed-4c34-b789-05cbef081e10")
+	)
+	(wire
+		(pts
+			(xy 123.825 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e32fad-5ce3-49d6-a237-9cc1852443ca")
+	)
+	(wire
+		(pts
+			(xy 124.46 56.515) (xy 127 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab58a78c-d3c1-4cf3-8365-82da815509fb")
+	)
+	(wire
+		(pts
+			(xy 206.375 49.53) (xy 209.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8c4058-333c-43e4-ab30-93bd471eeab8")
+	)
+	(wire
+		(pts
+			(xy 158.115 52.705) (xy 158.115 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad90e89f-2cfd-454f-8b96-f043bc2faece")
+	)
+	(wire
+		(pts
+			(xy 156.21 49.53) (xy 158.115 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0955de7-30af-4729-9bf3-0824526174d9")
+	)
+	(wire
+		(pts
+			(xy 158.115 52.705) (xy 160.655 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a79bb3-5b5a-4763-a9c2-3f214ea0b02a")
+	)
+	(wire
+		(pts
+			(xy 140.335 52.705) (xy 140.335 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17a1b83-5487-4f57-b83d-69ef56b16efb")
+	)
+	(wire
+		(pts
+			(xy 109.855 59.69) (xy 127 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5a37c44-9b31-4f2b-89a2-3299ccc232bc")
+	)
+	(wire
+		(pts
+			(xy 189.865 67.945) (xy 209.55 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c66d5107-d929-4856-a72c-ba807d7a35b6")
+	)
+	(wire
+		(pts
+			(xy 158.115 49.53) (xy 160.655 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9e54fc4-603b-4b55-a87e-4e27c51f6065")
+	)
+	(wire
+		(pts
+			(xy 175.26 49.53) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56c4a10-1278-409d-9c5b-36983130d8da")
+	)
+	(wire
+		(pts
+			(xy 191.135 49.53) (xy 193.675 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc90676-506e-4ae8-baee-355c6e98385e")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 177.165 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18c07b0-129f-43be-b90f-9b86758c1750")
+	)
+	(wire
+		(pts
+			(xy 109.855 52.705) (xy 109.855 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b781e0-f128-4ed4-987f-6dc518104c59")
+	)
+	(wire
+		(pts
+			(xy 140.335 49.53) (xy 143.51 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e695c576-a8b4-4b12-ba9b-ffd43d0cef17")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf19aa3-058d-41e7-bbb9-c76ac0cfa5b2")
+	)
+	(wire
+		(pts
+			(xy 175.26 45.72) (xy 175.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf5803d-b501-4852-b54a-7c0d5c3be014")
+	)
+	(wire
+		(pts
+			(xy 147.32 56.515) (xy 177.165 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8dd00e-6fb0-4afb-aabc-f380e214e434")
+	)
+	(hierarchical_label "Carry"
+		(shape input)
+		(at 209.55 67.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5948596a-334c-4a5e-8dfe-6db78ec7167a")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 105.41 52.705 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89e62c06-92e2-4377-a337-6a3645d623be")
+	)
+	(hierarchical_label "out"
+		(shape input)
+		(at 209.55 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4153320-fcf8-44ed-b065-0d4ec41761ac")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 105.41 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8b573a3-822b-4faa-90bc-bfec6fcb4668")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 105.41 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3f7fd98-524d-4933-95bf-bc8a41f50326")
+	)
+	(sheet
+		(at 177.165 41.275)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "72c9fa6e-d06b-4b3d-894d-14ff97bcca85")
+		(property "Sheetname" "NOR_Gate_9"
+			(at 177.165 40.5634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 177.165 47.5746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 177.165 42.545 180)
+			(uuid "25347a94-7a47-41ab-b32e-92a5a5519cc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 177.165 45.72 180)
+			(uuid "12694fa5-c834-4738-8301-0acbfe7dc1be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 189.865 42.545 0)
+			(uuid "21eb4a51-7186-42da-ba40-4a69ecdbf17a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "33")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "11")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.125 48.26)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b8ae2c3e-42de-4f3d-92df-792c18b858af")
+		(property "Sheetname" "NOR_Gate_3"
+			(at 111.125 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 111.125 54.5596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 111.125 49.53 180)
+			(uuid "2ce05213-7410-4a5d-bf8c-9670258b5cbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 111.125 52.705 180)
+			(uuid "9fff544b-50c9-463a-88fb-2321a99b3a70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 123.825 49.53 0)
+			(uuid "ef6f340b-4f41-46ae-84d9-e67de1b400d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "28")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "8")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 48.26)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c3d3cb4e-2604-49cb-972b-52837e340578")
+		(property "Sheetname" "NOR_Gate_6"
+			(at 143.51 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 143.51 54.5596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 143.51 49.53 180)
+			(uuid "f37f0cfb-46dd-4fb5-aa63-bda7778745ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 143.51 52.705 180)
+			(uuid "66decc1c-4bec-4341-b37e-7aa159f9cf76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 156.21 49.53 0)
+			(uuid "9432f3cf-730c-466b-9334-005c633347c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "30")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "13")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.165 55.245)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c422561a-2a11-4aaa-b57a-8fe526a5b73c")
+		(property "Sheetname" "NOR_Gate_10"
+			(at 177.165 54.5334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 177.165 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 177.165 56.515 180)
+			(uuid "deb527a5-77e9-4255-86e0-8df35934f865")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 177.165 59.69 180)
+			(uuid "53b90322-5d87-4761-9818-d857fcd3d59b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 189.865 56.515 0)
+			(uuid "240c8275-b7dd-466d-bc0b-0b2e110163cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "34")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "12")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 41.275)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cb880d31-5fb0-440a-b7f8-b92fad18c36b")
+		(property "Sheetname" "NOR_Gate_4"
+			(at 127 40.5634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 127 47.5746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 127 42.545 180)
+			(uuid "7caa4153-fd33-46d7-bb2a-45349de7369c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 127 45.72 180)
+			(uuid "28e5ce82-ba19-4b7c-bf6c-5157797b0d94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 139.7 42.545 0)
+			(uuid "9b511196-f631-4de8-99bf-3cfd85cf4724")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "27")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "9")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.675 48.26)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d2581364-4ac3-4329-a664-0e43a5379021")
+		(property "Sheetname" "NOR_Gate_11"
+			(at 193.675 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 193.675 54.5596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 193.675 49.53 180)
+			(uuid "0ccb0b33-ad21-4d0a-8a14-143136c35dee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 193.675 52.705 180)
+			(uuid "92095f4a-7719-4db5-b4b5-9e44bbfcacdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 206.375 49.53 0)
+			(uuid "a04c5210-d487-4ed1-ade5-51c3434f16dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "35")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "7")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.655 48.26)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dc9505db-3721-4fd8-91a4-6f5e97717db1")
+		(property "Sheetname" "NOR_Gate_8"
+			(at 160.655 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 160.655 54.5596 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 160.655 49.53 180)
+			(uuid "580ee107-515b-4132-ab79-ae674efb5b54")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 160.655 52.705 180)
+			(uuid "94acdcd4-0d0d-4822-80be-a54a2d3ddfad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 173.355 49.53 0)
+			(uuid "183cfae0-f89a-4c57-969d-5ac99a4c93a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "31")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "14")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.165 66.675)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ed1ddb26-0dd6-4d2a-b7a4-45e12dff482a")
+		(property "Sheetname" "NOR_Gate_7"
+			(at 177.165 65.9634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 177.165 72.9746 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 177.165 67.945 180)
+			(uuid "05ca6acc-d339-4fe7-8953-ba3186ae9877")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 177.165 71.12 180)
+			(uuid "af2c57c3-ecda-47a2-905e-5f2f3e593d57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 189.865 67.945 0)
+			(uuid "e65c358c-5d0e-451d-b68b-585ead839c79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "32")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "15")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 55.245)
+		(size 12.7 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fc6d013e-6edc-4cc6-8d00-ec20f4244f9d")
+		(property "Sheetname" "NOR_Gate_5"
+			(at 127 54.5334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NOR_Gate.kicad_sch"
+			(at 127 61.5446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 127 56.515 180)
+			(uuid "be87f6de-bdf4-41c1-ba02-0beca7ca5037")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B" input
+			(at 127 59.69 180)
+			(uuid "a28e16c2-6e8c-4eaf-8e2e-c0d5c311eeec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "out" input
+			(at 139.7 56.515 0)
+			(uuid "2c5c473e-59f9-44fe-ac9b-360368e3d836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/37c1e401-d2d7-4d8b-a915-7009f7b6f658"
+					(page "29")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/691ca488-0f00-4b09-be93-5dca888f40b8"
+					(page "10")
+				)
+				(path "/842e3f82-fb31-4f10-a2da-b2bdef19aa43/ff3d5f3a-8abd-456f-a505-9238de375426"
+					(page "20")
+				)
+			)
+		)
+	)
+)
