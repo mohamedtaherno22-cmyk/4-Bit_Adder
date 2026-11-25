@@ -34,11 +34,11 @@ A 4-bit adder built entirely from discrete transistors and resistors. The projec
 <img width="1832" height="695" alt="image" src="https://github.com/user-attachments/assets/67f04735-7a19-48d2-8d84-b74b7894a4ae" />
 
 ## PCB
-<img width="1568" height="817" alt="image" src="https://github.com/user-attachments/assets/1ef58f6c-0c2b-4ddb-8851-e7126bdc717a" />
 
+<img width="1568" height="824" alt="image" src="https://github.com/user-attachments/assets/5f45c38a-321d-4b06-8b77-00ffed348a0d" />
 <img width="1896" height="709" alt="image" src="https://github.com/user-attachments/assets/e354879b-7434-44b3-831f-ce930add2d8c" />
 
 ## 3D Model
 
-<img width="1675" height="895" alt="image" src="https://github.com/user-attachments/assets/6a966a05-9e88-4734-b8d2-26e8eb8b1d93" />
+<img width="996" height="892" alt="image" src="https://github.com/user-attachments/assets/d30989aa-82ce-4ea0-97c6-d8c973f039f6" />
 
