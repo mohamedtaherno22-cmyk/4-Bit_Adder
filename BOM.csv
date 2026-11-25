@@ -2,7 +2,7 @@ Item,Qty,Supplier,Cost/item,Total Cost,link
 PCB,1,Metadonia,$6.50,$6.50,https://metanoia-eg.com/pcbfab/
 Switches,8,Future electronics,$0.09,$0.72,https://store.fut-electronics.com/products/slide-switch-3-pin-spdt?_pos=3&_sid=e3f76bce6&_ss=r
 Red Round LED Diode 5 mm,5,future electronics,$0.02,$0.10,https://store.fut-electronics.com/products/red-round-led-diode-3-mm?_pos=2&_sid=c0b27502f&_ss=r
-20 x Transistor NPN 2N2222 Switch Transistors Electronic Components & Supplies,2,amazon,$0.73,$1.46,https://www.amazon.eg/-/en/Arduino-Transistor-Transistors-Electronic-Components/dp/B091JP7NLF/ref=sr_1_2?sr=8-2
+20 x Transistor NPN 2N2222 Switch Transistors,2,amazon,$0.73,$1.46,https://www.amazon.eg/-/en/Arduino-Transistor-Transistors-Electronic-Components/dp/B091JP7NLF/ref=sr_1_2?sr=8-2
 220 ohm resistor,1,future electronics,$0.01,$0.01,https://store.fut-electronics.com/products/resistor-240-ohm?_pos=1&_sid=4bb3c376d&_ss=r
 4.7k ohm resistor,30,future electronics,$0.01,$0.30,https://store.fut-electronics.com/products/resistor-240-ohm?_pos=1&_sid=4bb3c376d&_ss=r
 10k ohm resistor,60,Future electronics,$0.01,$0.60,https://store.fut-electronics.com/products/resistor-10-kohm?_pos=2&_sid=9524a6d3f&_ss=r
