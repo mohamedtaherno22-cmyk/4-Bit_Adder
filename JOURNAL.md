@@ -31,7 +31,7 @@ This Project is a massive one for me. For it to be manageable, it should be divi
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/2d9c6e2265047c594a2eb85df17884729ee97822fe3502d7d4b93b6345f0900f.png)
 
-After designing this 1-bit adder, it was time for the next stage: the 2-bit adder. However, a 2-bit adder requires three inputs instead of two because the previous addition may generate a carry bit. Again, I tried to figure it out on my own, but I failed horribly; I wasn't close at all. I opened YouTube again and got the general idea for the 2-bit adder, but I ended up with only three output slots instead of four (I later discovered that it needed only 3 XD). I don't know why, but it doesn't work as it is supposed to
+After designing this 1-bit adder, it was time for the next stage: the 2-bit adder. However, a 2-bit adder requires three inputs instead of two because the previous addition may generate a carry bit. Again, I tried to figure it out on my own, but I failed horribly; I wasn't close at all. I opened YouTube again and got the general idea for the 2-bit adder, but I ended up with only three output slots instead of four (I later discovered that it needed only 3 XD). I don't know why, but it doesn't work as it is supposed to 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/1805fd300ab681e66368213ab4ef7eb1485b882dfbe7d804d6ff151a2a4a27b4.png)
 
@@ -47,6 +47,8 @@ I then noticed that the red lines weren't connected to anything, meaning the gat
 
 Now, building 3-bit and 4-bit adders should simply be a matter of repeating the same process!
 
+
+
 Total Time Spent: 4 hours.
 
 Most of it was spent fixing mistakes and rewatching the YouTube guide, but it was worth it for me :)
@@ -59,7 +61,7 @@ Most of it was spent fixing mistakes and rewatching the YouTube guide, but it wa
 
 **12 Nov: Designing the Logic Gates**
 
-I only need to design three logic gates for this project: AND, OR, &XOR. And to do that, of course, I watched a YouTube tutorial,
+I only need to design three logic gates for this project: AND, OR, &XOR. And to do that, of course, I watched a YouTube tutorial, 
 
 **AND Gate:**
 
@@ -77,7 +79,7 @@ I found the answer to this question near the end of this session. Since if one i
 
 **XOR Gate:**
 
-Now for the final gate: the XOR. This one is a little more interesting because it uses both AND and OR logic. I didn't quite understand what it did, but I got it after reading that XOR = OR − AND.
+Now for the final gate: the XOR. This one is a little more interesting because it uses both AND and OR logic. I didn't quite understand what it did, but I got it after reading that XOR = OR − AND. 
 
 The schematic connects both gates using another transistor. When the AND gate is active, current flows through that path and disables the switch, leaving the output LOW. Other than this It works similar to standered and and OR gates.
 
@@ -91,9 +93,9 @@ I started by designing the adder for Bit_1, using the same model I created in th
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/f8b553ce58b0687735335d2133ea09bbf327cdb9e34cc2c4603f8597f0ab3207.png)
 
-I thought to myself that I should check the circuits I built before assembling the adders together. And, after a quick one-minute search, I discovered that I needed a 2kΩ resistor for each input. I also discovered a ton of problems with my design. For example, BIT_1_Out was accidentally shorted to the other two transistors, and the output needed a pull-down resistor.
+I thought to myself that I should check the circuits I built before assembling the adders together. And, after a quick one-minute search, I discovered that I needed a 2kΩ resistor for each input. I also discovered a ton of problems with my design. For example, BIT_1_Out was accidentally shorted to the other two transistors, and the output needed a pull-down resistor. 
 
-(Future me here: Those designs lacked any Type of resistor, like on the input, a pull-down resistor to ground to keep from acting like a noise picker. and so on. Figuring all this out and the exact resistance I should use was a headache; each website has its own design, and each design has a totally different resistance, and some designs have LEDs. This was really bad)
+(Future me here: Those designs lacked any Type of resistor, like on the input, a pull-down resistor to ground to keep from acting like a noise picker. and so on. Figuring all this out and the exact resistance I should use was a headache; each website has its own design, and each design has a totally different resistance, and some designs have LEDs. This was really bad) 
 
 ** Troubleshooting **
 
@@ -105,9 +107,9 @@ So, I decided to try the circuits first on an electronic circuit simulator. Than
 
  I changed the resistor values to 22kΩ, and suddenly, it worked like magic! So I did the same to all the circuits
 
-Next, I tried building the XOR gate using the same setup, but it didn't work at first either. I spent hours trying to figure out what was wrong, only to discover that the problem was simply the orientation of one of the transistors. Apparently, on this site (Falstad.com) you can change the type of transistor by using the scroll wheel, so I assume that this is what happened; before figuring this out, I even tried designing the circuit without any crossing wires, and this made the wires short, creating a weak signal. I had major problems with the resistance of each part of the circuit; it was just hell.
+Next, I tried building the XOR gate using the same setup, but it didn't work at first either. I spent hours trying to figure out what was wrong, only to discover that the problem was simply the orientation of one of the transistors. Apparently, on this site (Falstad.com) you can change the type of transistor by using the scroll wheel, so I assume that this is what happened; before figuring this out, I even tried designing the circuit without any crossing wires, and this made the wires short, creating a weak signal. I had major problems with the resistance of each part of the circuit; it was just hell. 
 
-*My progress designing the XOR Gate*
+*My progress designing the XOR Gate* 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/d359505b6cfe6fbde11b7bc2a4ad8390e10eb42aed139eb343cfc5d69c7e7551.png)
 
@@ -119,13 +121,13 @@ Credits to https://www.instructables.com/Make-an-XOR-Gate-Out-of-Transistors/
 
 **Schematic**
 
-After checking that all the circuits work, I designed the schematics in KiCad. These are the schematics for each of the three Gates. I modified the design many Times to ensure that the design is clear and understandable.
+After checking that all the circuits work, I designed the schematics in KiCad. These are the schematics for each of the three Gates. I modified the design many Times to ensure that the design is clear and understandable. 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/2f99bb0f81c7b2d2c22bf8a605ff4f5040d26e71b5633720d6b4072b42429c17.png)
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/ca57a622b45678aefa81e7a7d33a2fde0794319df35a00c9804ccd153fd16513.png)
 
-*Schematic for the 1st Bit adder*
+*Schematic for the 1st Bit adder* 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/670607a58c2c1ba103d9879ed3be498ee53e3e1282d42da3817434b759f8590b.png)
 
@@ -170,7 +172,7 @@ Total Time Spent: 7 hours
 
 **8h**
 
-Before starting to work on the PCB, I decided to build the full adder on a circuit simulator to check if there are any issues. I successfully emulated the circuit. At first, the circuit didn't work cause I didn't wire it correctly; after reworking the circuit, everything now works as it should. Also, there was a problem with reading the output from bit 2, as it was set to LOW when It should be HIGH; the wire had current too. I fixed this problem by decreasing the threshold to 2 instead of 2.5.
+Before starting to work on the PCB, I decided to build the full adder on a circuit simulator to check if there are any issues. I successfully emulated the circuit. At first, the circuit didn't work cause I didn't wire it correctly; after reworking the circuit, everything now works as it should. Also, there was a problem with reading the output from bit 2, as it was set to LOW when It should be HIGH; the wire had current too. I fixed this problem by decreasing the threshold to 2 instead of 2.5. 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/5ff0638daf3092282c1c7006918e3bf4d02b1d4a755a4b4ae63847754a14e8ab.png)
 
@@ -178,7 +180,7 @@ I continued building the full adder, but as seen in the image, it doesn't work. 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/26d200403a076b0ed265c8c0539761734cc87d877b90bf5c86e17bd13ed63bb4.png)
 
-lol, I  just discovered that there is an adder module that uses 9 transistors only. This design uses 9 NOR gates with 1 transistor each.
+lol, I  just discovered that there is an adder module that uses 9 transistors only. This design uses 9 NOR gates with 1 transistor each. 
 
 Logic Gates design:
 
@@ -197,17 +199,18 @@ Full Adder:
 
 Credits for making all 11 hours I spent on the previous design in vain to: https://hackaday.io/project/202145-discrete-4-bit-adder/details
 
+
 Half-Adder Circuit for the first  2 bits
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/0135cfe16949664232c3199a0d5845877e62e38feca3e2fe4f78041f9ae9e971.png)
 
-I further refined the design; now it uses only 4 transistors
+I further refined the design; now it uses only 4 transistors 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/d1a7086db9b0e0ef6139278b18cc01a593e71e66ee2d50a141643ebe37348bed.png)
 
 **Now its time for the schematic.**
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/ceeac66c55830da2409d5deffd722f2f21e972aef1c972ecbc10a60f7ea3c231.png)
 
-I created a hierarchy schematic and added the NOR gate as a subcircuit. This should make the routing much easier.
+I created a hierarchy schematic and added the NOR gate as a subcircuit. This should make the routing much easier. 
 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/58d93d90d984aeeae950e80a14957bbff86bdaf67316ed9778473fe003a67d2b.png)
 
@@ -237,7 +240,7 @@ After assigning the correct footprints to everything, this is what i am left wit
 This one NOR gate routed; I can't do this for all gates. Initially, I tried to copy the gate from the schematic editor, but the gate was copied with the same references.  I discovered the repeat layout tool in KiCad Tools\Multichannel. It took me a while to figure out how to use it, as you have to create a placement rules area first. I didn't know this, so I kept running into errors, but eventually I got it Done
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/c0fdc31c3f3b99fbea2460d0ba802cd2186db3f815eaf32f1211ba1c1a8447c7.png)
 
-Yay, now all the gates are in the correct orientation, except for the AND gate, which was routed manually. The rest was repetitive work of checking the schematic and wiring accordingly, then checking for mistakes, rinse and repeat. Here is the progress
+Yay, now all the gates are in the correct orientation, except for the AND gate, which was routed manually. The rest was repetitive work of checking the schematic and wiring accordingly, then checking for mistakes, rinse and repeat. Here is the progress 
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/95e9ae868033589b64f9d535ee681ae637d726e3b27fe55aecb3439920559683.png)
 First part of the adder
 ![image](https://halflife.hackclub-assets.com/sessions/si7oUujLPcQATsL6MYHnfHND9xDBNL6K/8414d9051844bf4a37b9ae3e7277534a7c25948068335360f1ef6f7df59234f5.png)
@@ -260,5 +263,6 @@ This is the 3d shape of the Circuit.
 I used a lot of Viases in this PCB.
 
 Total Hours Spent: 4.
+
 
 TL;DR: PCB routing is done. It is not pretty, but it works (i wish).
